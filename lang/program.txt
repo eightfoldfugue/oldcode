@@ -1,0 +1,7 @@
+
+def comp 
+| fn f g x | f (g x)
+
+def baz | 1 <add> 2 <add> 3
+
+def main | baz

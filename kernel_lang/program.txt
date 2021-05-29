@@ -1,0 +1,19 @@
+
+; lets try some more
+
+def comp 
+	fn f g x | f (g x)
+
+
+def incr
+	fn x | add x 1
+
+def decr
+	fn x | sub x 1
+
+
+def nochange
+	comp incr decr
+
+
+def main nochange 5
